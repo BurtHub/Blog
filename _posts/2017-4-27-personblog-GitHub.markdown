@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "GitHub博客搭建"
+title: "使用GitHubPager搭建个人博客"
 tags: [github]
 categories: [Other]
 ---
