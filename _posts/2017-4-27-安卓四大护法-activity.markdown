@@ -31,6 +31,7 @@ onCreate()您必须实现此方法。系统会在创建您的 Activity 时调用
 		        <category android:name="android.intent.category.LAUNCHER" />
 		    </intent-filter>
 		</activity>
+
 #### 启动 Activity
 * 您可以通过调用 startActivity()，并将其传递给描述您想启动的 Activity 的 Intent 来启动另一个 Activity。Intent 对象会指定您想启动的具体 Activity 或描述您想执行的操作类型（系统会为您选择合适的 Activity，甚至是来自其他应用的 Activity）。 Intent 对象还可能携带少量供所启动 Activity 使用的数据。 
 
