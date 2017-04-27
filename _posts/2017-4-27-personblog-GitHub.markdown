@@ -63,9 +63,9 @@ categories: [Other]
 * 应用模版，开始写作
 > 命令有三条
 
-* git add .
-* git commit -m "message"
-* git push -u origin master
+	* git add .
+	* git commit -m "message"
+	* git push -u origin master
 
 
 	1. 先将你的仓库clone下来
