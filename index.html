@@ -10,14 +10,14 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-      <font size="2">{{ post.excerpt }} </font>
+ 
 	   <a href="{{ post.url | prepend: site.baseurl }}" class="article__more">阅读全文 »</a>
 	   <hr>
     </li>
   {% endfor %}
 </ul>
 
-    <!-- <nav class="blocks blocks--space">
+    <nav class="blocks blocks--space">
       <div class="blocks__item">
         {% if paginator.previous_page %}<a href="{{ paginator.previous_page_path }}">Previous</a>{% endif %}
       </div>
@@ -27,4 +27,4 @@ layout: default
       <div class="blocks__item">
         {% if paginator.next_page %}<a href="{{ paginator.next_page_path }}">Next</a>{% endif %}
       </div>
-    </nav> -->
+    </nav> 
