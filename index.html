@@ -10,7 +10,7 @@ layout: default
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h5>
       <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
-      {{ post.excerpt }}
+      <h6 class="article__title"> {{ post.excerpt }} </h6>
 	   <a href="{{ post.url | prepend: site.baseurl }}" class="article__more">阅读全文 »</a>
     </li>
   {% endfor %}
