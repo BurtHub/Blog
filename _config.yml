@@ -2,21 +2,12 @@
 domain: "https://burthub.github.io/Blog/"
 baseurl: "https://burthub.github.io/Blog/" # the subpath of your site, e.g. /blog/
 url: "https://burthub.github.io/Blog/" # the base hostname & protocol for your site
-permalink: /:title/
+
 
 basecss: 
 # Theme specific configuration
 title: burtblog
-description: >
-  Hi there, My name is Luozhan.Song, usually I use "songroger" as my ID everywhere.
-  I was born and raised in Hunan China. 
-  I'm really fond of beautiful design, drawing etc.
-
-# Contact and social media links
-twitter_username: burt
 github_username: burt
-linkedin_username: burt
-
 exclude: ['node_modules', 'gulpfile.js', 'package.json']
 
 kramdown:
