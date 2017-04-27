@@ -5,14 +5,14 @@ layout: default
   
   <ul>
   {% for post in site.posts %}
-    <li>
-		<hr>
+    <li>	
       <h2 class="article__title">
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
       </h2>
       <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
       {{ post.excerpt }} 
 	   <a href="{{ post.url | prepend: site.baseurl }}" class="article__more">阅读全文 »</a>
+	   <hr>
     </li>
   {% endfor %}
 </ul>
