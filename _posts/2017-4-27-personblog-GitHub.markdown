@@ -42,6 +42,8 @@ categories: [Other]
 	2. 输入仓库名，简介 ---> 连着的两个框
 	3. 点击下面绿色的 [create Repositories]
 
+
+
 >  设置仓库(Repositories)
 
 	1. 点击刚创建好的仓库
