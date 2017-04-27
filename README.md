@@ -1,7 +1,8 @@
-# [murmur](http://songroger.github.io/murmur)
+## burt的个人博客
 
-![preview](preview.png)
+* 基于jekyll的个人博客站点，主题风格本着"simple is beautiful"的原则。
 
-This is another simple theme for [jekyll](http://jekyllrb.com/).
-Try to edit `_config.yml` first before use it.
-Replace all the blabla configurations(like "avatar", "about", "title", etc.) to your owns.
+## 关于我
+
+* Android developer + 爱技术， 爱开源， 爱赚钱。互联网中毒症患者，Want to make a good app!
+
