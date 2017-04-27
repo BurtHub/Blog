@@ -1,3 +1,10 @@
+---
+layout: post
+title: "GitHub博客搭建"
+tags: [github]
+categories: [Other]
+---
+
 #### 使用GitHubPage 搭建个人博客
 
 
