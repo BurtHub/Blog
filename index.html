@@ -6,9 +6,9 @@ layout: default
   <ul>
   {% for post in site.posts %}
     <li>
-      <h5 class="article__title">
+      <h3 class="article__title">
         <a href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
-      </h5>
+      </h3>
       <time class="article__date" datetime="{{ post.date | date: "%Y-%m-%d" }}">{{ post.date | date: "%b %-d, %Y" }}</time>
       <h6 class="article__title"> {{ post.excerpt }} </h6>
 	   <a href="{{ post.url | prepend: site.baseurl }}" class="article__more">阅读全文 »</a>
