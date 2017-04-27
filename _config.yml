@@ -1,13 +1,26 @@
 # Site configuration
-domain: "https://burthub.github.io/Blog/"
-baseurl: "https://burthub.github.io/Blog/" # the subpath of your site, e.g. /blog/
-url: "https://burthub.github.io/Blog/" # the base hostname & protocol for your site
-
-
+domain: "http://songroger.win"
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "http://songroger.github.io/" # the base hostname & protocol for your site
+permalink: /:title/
+avatar: http://7xof48.com1.z0.glb.clouddn.com/avatar.jpg
+about: http://7xof48.com1.z0.glb.clouddn.com/about.jpg
+favicon: http://7xof48.com1.z0.glb.clouddn.com/favicon.png
 basecss: 
 # Theme specific configuration
-title: burtblog
-github_username: burt
+title: songroger
+description: >
+  Hi there, My name is Luozhan.Song, usually I use "songroger" as my ID everywhere.
+  I was born and raised in Hunan China. 
+  I'm really fond of beautiful design, drawing etc.
+
+# Contact and social media links
+twitter_username: songrogero
+github_username: songroger
+facebook_username: song.roger.1
+instagram_username: songroger198
+linkedin_username: songroger
+
 exclude: ['node_modules', 'gulpfile.js', 'package.json']
 
 kramdown:
