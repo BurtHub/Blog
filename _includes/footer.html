@@ -1,5 +1,25 @@
-<footer class="footer">
-	<div class="col">
-		© 2014-8888 {{ site.title }} | <a href="#" class="subscribe">Powered by Burt</a>
-	</div>
-</footer>
+{% if site.quote["enable"] %}
+<blockquote id="footer-quote">
+    <p>
+        {% if page.quote %}
+        {{ page.quote["quote"] }}
+        {% else %}
+        {{ site.quote["quote"] }}
+        {% endif %}
+    </p>
+    <footer>
+        <cite>
+        {% if page.quote %}
+        - {{ page.quote["author"] }}
+        {% else %}
+        - {{ site.quote["author"] }}
+        {% endif %}
+    </cite>
+    </footer>
+</blockquote>
+{% endif %}
+<div id="footer-main">
+    <small>
+        &copy; 2017 Burt. ALL RIGHTS RESERVED.
+    </small>
+</div>

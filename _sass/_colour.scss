@@ -1,0 +1,342 @@
+// colors
+$color-black: #2B2B2B;
+$color-white: #fcfcfc;
+$color-blue: lighten(#1D408C, 10);
+$color-orange: #d16b19;
+$color-green: #1BA914;
+$color-red: #CF191D;
+
+$color-code: darken($color-white, 10);
+
+$color-paginator: darken($color-white, 30);
+$color-paginator-darker: darken($color-paginator, 10);
+$color-paginator-darkest: darken($color-paginator, 40);
+
+$color-orange-dark: darken($color-orange, 15);
+$color-blue-dark: darken($color-blue, 15);
+$color-green-dark: darken($color-green, 15);
+$color-red-dark: darken($color-red, 15);
+
+$color-info: lighten($color-blue, 45);
+$color-warning: lighten($color-orange, 45);
+$color-success: lighten($color-green, 45);
+$color-note: lighten($color-red, 45);
+
+$color-info-dark: darken($color-info, 10);
+$color-warning-dark: darken($color-warning, 15);
+$color-success-dark: darken($color-success, 10);
+$color-note-dark: darken($color-note, 10);
+
+/*************************************************************************
+                             BLUE-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+main a,
+main a:visited {
+  color: $color-blue;
+}
+
+/*************************************************************************
+                             BLUE-DARK-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+
+main a:hover,
+.info {
+  color: $color-blue-dark;
+}
+
+
+/*************************************************************************
+                             INFO-COLOR
+/*************************************************************************/
+
+
+//---------------------------BACKGROUND
+
+.info {
+  background-color: $color-info;
+}
+
+/*************************************************************************
+                             INFO-DARK-COLOR
+/*************************************************************************/
+
+
+//---------------------------BORDER
+
+.info {
+  border-color: $color-info-dark;
+}
+
+//---------------------------BACKGROUND
+
+.info code{
+  background-color: $color-info-dark;
+}
+
+/*************************************************************************
+                             WHITE-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+#footer-quote,
+.env-header,
+.table th,
+#wrapper > header a,
+#wrapper > header a:visited,
+.contact-form input[type="submit"] {
+  color: $color-white;
+}
+
+//---------------------------BACKGROUND
+main {
+  background-color: $color-white;
+}
+
+/*************************************************************************
+                             CODE-COLOR
+/*************************************************************************/
+
+//---------------------------BACKGROUND
+.highlighter-rouge {
+  background-color: $color-code;
+}
+
+/*************************************************************************
+                             PAGINATOR-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+.contact-form input,
+.contact-form textarea {
+  border-color: $color-paginator;
+}
+
+//---------------------------BACKGROUND
+.paginator {
+  background-color: $color-paginator;
+}
+
+//---------------------------BORDER
+.preview {
+  border-bottom-color: $color-paginator;;
+}
+
+/*************************************************************************
+                             PAGINATOR-DARKER-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+#footer-main > small,
+.lineno {
+  color: $color-paginator-darker;
+}
+
+
+/*************************************************************************
+                             PAGINATOR-DARKEST-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+.sep,
+.paginator a,
+.paginator a:visited,
+.post-meta {
+  color: $color-paginator-darkest;
+}
+
+.paginator .fancy-nav:before,
+.paginator .fancy-nav:after,
+.lineno {
+  background-color: $color-paginator-darkest !important;
+}
+
+/*************************************************************************
+                             BLACK-COLOR
+/*************************************************************************/
+
+//---------------------------BACKGROUND
+
+#footer-main {
+  background-color: $color-black;
+}
+
+/*************************************************************************
+                             ORANGE-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+article > ul li:before,
+article > ol li::before {
+  color: $color-orange;
+}
+
+//---------------------------BACKGROUND
+.contact-form input[type="submit"],
+#main-nav .fancy-nav:before,
+#main-nav .fancy-nav:after,
+.table th,
+.env-header {
+  background-color: $color-orange;
+}
+
+//---------------------------BORDER
+.definition,
+.contact-form input:focus,
+.contact-form textarea:focus {
+  border-color: $color-orange;
+}
+
+//---------------------------BORDER-LEFT
+article > .blockquote {
+  border-left-color: $color-orange;
+}
+
+
+/*************************************************************************
+                             ORANGE-DARK-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+
+article h1,
+article > h2,
+article > h3,
+article > h4,
+article > h5,
+article > h6,
+.warning,
+.link-to-post,
+.link-to-post:visited {
+  color: $color-orange-dark;
+}
+
+/*************************************************************************
+                             WARNING-COLOR
+/*************************************************************************/
+
+
+//---------------------------BACKGROUND
+.definition,
+.warning,
+.table tbody tr:nth-child(2n) {
+  background-color: $color-warning;
+}
+
+
+
+/*************************************************************************
+                             WARNING-DARK-COLOR
+/*************************************************************************/
+
+
+//---------------------------BORDER
+.table td,
+.table th,
+.warning{
+  border-color: $color-warning-dark;
+}
+
+//---------------------------BACKGROUND
+.warning code {
+  background-color: $color-warning-dark;
+  border-color: $color-orange-dark;
+}
+
+/*************************************************************************
+                             NOTE-COLOR
+/*************************************************************************/
+
+//---------------------------BACKGROUND
+.note {
+  background-color: $color-note;
+}
+
+/*************************************************************************
+                             NOTE-DARK-COLOR
+/*************************************************************************/
+
+//---------------------------BORDER
+.note {
+  border-color: $color-note-dark;
+}
+
+//---------------------------BACKGROUND
+.note code{
+  background-color: $color-note-dark;
+}
+
+/*************************************************************************
+                             RED-DARK-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+.note {
+  color: $color-red-dark;
+}
+
+
+/*************************************************************************
+                             SUCCESS-COLOR
+/*************************************************************************/
+
+//---------------------------BACKGROUND
+.success {
+  background-color: $color-success;
+}
+
+/*************************************************************************
+                             SUCCESS-DARK-COLOR
+/*************************************************************************/
+
+//---------------------------BORDER
+.success {
+  border-color: $color-success-dark;
+}
+
+//---------------------------BACKGROUND
+.success code {
+  background-color: $color-success-dark;
+}
+
+/*************************************************************************
+                             GREEN-DARK-COLOR
+/*************************************************************************/
+
+//---------------------------FONT
+.success {
+  color: $color-green-dark;
+}
+
+/*************************************************************************
+                           TRANSPARENT-COLOUR
+/*************************************************************************/
+
+//---------------------------BACKGROUND
+#footer-quote {
+  background-color: transparent;
+}
+
+/*************************************************************************
+                           MISC-COLOR
+/*************************************************************************/
+.link-to-post:hover {
+  color: darken($color-orange-dark, 5);
+}
+
+.contact-form input[type="submit"]:hover {
+  background-color: darken($color-orange, 10);
+
+}
+
+/*************************************************************************
+                             BOX-SHADOW
+/*************************************************************************/
+.contact-form input:focus,
+.contact-form textarea:focus {
+  outline: none;
+  box-shadow: 0 0 4px $color-orange;
+}

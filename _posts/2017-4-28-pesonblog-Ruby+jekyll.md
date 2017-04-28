@@ -2,6 +2,7 @@
 layout: post
 title: "jekyll 基于 Ruby 的本地博客系统"
 tags: [Ruby]
+description: 学过JS的同学特别庆幸的一件事就是 - 变量没有类型 - 完全面向对象.
 categories: [Ruby]
 ---
 

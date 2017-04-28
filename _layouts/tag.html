@@ -1,0 +1,7 @@
+---
+layout: default
+---
+
+{% for page in site.tags[page.tag] %}
+{% include articles.html %}
+{% endfor %}

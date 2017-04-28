@@ -2,6 +2,7 @@
 layout: post
 title: "使用GitHubPager搭建个人博客"
 tags: [github]
+description: 博客就像那个烂笔头，每天写一点，BUG就会越来越少
 categories: [Other]
 ---
 

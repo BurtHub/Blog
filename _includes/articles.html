@@ -1,0 +1,9 @@
+<article class="preview">
+    <header>
+        {% if page.title %}
+        <h2><a class="link-to-post" href="{{ site.baseurl }}{{ page.url }}">{{ page.title }}</a></h2>
+        {% endif %}
+        {% include post_meta.html %}
+    </header>
+    <p>{{ page.description }}</p>
+</article>

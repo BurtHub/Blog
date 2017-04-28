@@ -1,0 +1,54 @@
+/*************************************************************************
+                           MEDIA QUERIES
+/*************************************************************************/
+
+@media only screen and (min-width: $media-query-med-1) {
+  .preview {
+    text-align: left;
+  }
+  .paginator li {
+    display: inline-block;
+  }
+
+  .sep {
+    display: block;
+  }
+
+  .paginator ul {
+    max-width: none;
+  }
+  #main-nav {
+    max-width: none;
+    text-align: right;
+  }
+  #main-nav ul li {
+    display: inline-block;
+  }
+}
+
+@media only screen and (min-width: $media-query-med-2) {
+  html {
+    font-size: $f-s-tablet;
+  }
+  main {
+    padding: $l-h-baseline-double * 3 0;
+  }
+
+
+}
+
+@media only screen and (min-width: $media-query-max) {
+  html {
+    font-size: $f-s-desktop;
+  }
+
+}
+
+@media only screen and (min-width: $media-query-max-extra) {
+
+
+
+
+}
+
+
