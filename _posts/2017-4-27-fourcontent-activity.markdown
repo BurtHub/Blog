@@ -1,9 +1,9 @@
 ---
 layout: post
 title: "安卓四大护法->Activity"
-tags: [Activity]
+tags: [Android]
 description: 近来回顾了一下关于Activity的生命周期，参看了相关书籍和官方文档，也有了不小的收获. 
-categories: [Activity]
+categories: [Android]
 ---
 
 #### 子曰：溫故而知新，可以為師矣。《論語》
