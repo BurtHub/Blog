@@ -26,6 +26,7 @@ categories: [Ruby]
 * http://jekyllthemes.org/ 下载你喜欢的模版到任意目录
 * $ cd you website path //cd到你的上一句的任意目录下
 * $ jekyll serve
+* 服务器运行爆一场，请输入gem install jekyll-paginate
 * 一个开发服务器将会运行在 http://localhost:4000/
 * 你就能在本地服务器看到你用模板搭建的网站了
 * 愉快的修改吧
