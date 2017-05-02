@@ -1,6 +1,7 @@
 ## burt的个人博客
 
 * 基于jekyll的个人博客站点，主题风格本着"simple is beautiful"的原则。
+* https://burthub.github.io/Blog/
 
 ## 关于我
 
